@@ -19,7 +19,7 @@ const Create = () => {
     
   const handleSubmit = (e)=>{
      e.preventDefault();
-      console.log(users)
+     
 
     dispatch(createUser(users))
     router.push('/read')
